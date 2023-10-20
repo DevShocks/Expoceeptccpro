@@ -37,10 +37,11 @@
          <?php require load(); ?> 
      </div>
 
+     <footer>
 
+     <p>@ 3°C Informática</p>
 
-
-
+     </footer>
 
 </body>
 </html>

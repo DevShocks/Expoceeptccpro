@@ -12,7 +12,7 @@
       <a href="?page=cadastro">Cadastrar</a>
     </p>
     <p class="registrolink">
-      Entrar como 
+      Entrar como
       <a href="?page=professorescadastro">professor</a>
     </p>
   </div>
