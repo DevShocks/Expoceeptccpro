@@ -23,10 +23,10 @@
 
 <ul>
     
-  <li><a href="#home">Inicio</a></li>
   
-  <li><a href="#contact">Conta</a></li>
-  <li style="float:right"><a class="active" href="#about">Sobre</a></li>
+<li style="float:right"><a class="active" href="?page=sobre">Sobre</a></li>
+  <li><a href="?page=login">Conta</a></li>
+  <li><a href="?page=inicio" >Inicio</a></li>
 </ul>
 
 
