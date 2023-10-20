@@ -18,23 +18,18 @@
 
 
 <div class="headerdiv">
+<img src="./assets/image/tccpro.png" class="imagezona">
 
 
+<ul>
+    
+  <li><a href="#home">Inicio</a></li>
+  
+  <li><a href="#contact">Conta</a></li>
+  <li style="float:right"><a class="active" href="#about">Sobre</a></li>
+</ul>
 
 
-
-<nav class="headerpagina"> 
-                 <ul> 
-                     <li class="comic-button"> 
-                         <h2><a href="?page=home">Inicio </a></h2> 
-                     </li> 
-                     
-                     <li class="comic-button2"> 
-                         <h2><a href="?page=login">Conta </a></h2> 
-                     </li> 
-                     
-                 </ul> 
-             </nav> 
          </div> 
      </header> 
      </div>
