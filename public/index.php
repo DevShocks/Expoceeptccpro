@@ -15,7 +15,12 @@
 <body>
         
 
+
+
 <div class="headerdiv">
+
+
+
 
 
 <nav class="headerpagina"> 
@@ -23,15 +28,11 @@
                      <li class="comic-button"> 
                          <h2><a href="?page=home">Inicio </a></h2> 
                      </li> 
-                     <li class="comic-button"> 
-                         <h2><a href="?page=cadastro">Cadastro </a> </h2> 
+                     
+                     <li class="comic-button2"> 
+                         <h2><a href="?page=login">Conta </a></h2> 
                      </li> 
-                     <li class="comic-button"> 
-                         <h2><a href="?page=login">Login </a></h2> 
-                     </li> 
-                     <li class="comic-button"> 
-                         <h2><a href="?page=produto">avisos </a> </h2> 
-                     </li> 
+                     
                  </ul> 
              </nav> 
          </div> 

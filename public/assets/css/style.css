@@ -2,7 +2,8 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  margin-top: auto;
+
+  
 }
 
 body {
@@ -39,16 +40,16 @@ body {
   padding: 10px;
   margin-bottom: 15px;
   border: none;
-  background: #a80808;
+  background: #d6d6d6;
   border-radius: 4px;
-  box-shadow: inset 0px 1px 3px rgba(247, 0, 0, 0.2);
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .login-button {
   width: 100%;
   padding: 10px;
   border: none;
-  background: #000000;
+  background: #073e63;
   color: #fff;
   font-weight: bold;
   border-radius: 4px;
@@ -66,26 +67,33 @@ body {
 
 /*    fundo e header    */
 
-.headerdiv{
+.headerdiv {
   background-color: #073e63;
   margin-top: auto;
   height: 15%;
 }
-  
-.headerpagina li{
-  float: left; 
-  display: inline ;
-  margin-right: 50px;
+
+.headerpagina li {
+  float: left;
+  display: inline;
+  margin-right: 200px;
+  padding: 10%;
+  margin-top: -10%;
+  margin-left: 15px;
+}
+
+.comic-button2{
+  margin-left:  10px;
 }
 
 /*  icones do menu nav  */
 
 
 ul {
- 
+
   margin: 10;
   padding: 10;
-  
+
   background-color: rgb(255, 255, 255);
   font-size: 20px;
   text-shadow: 0px 2px 5px #000000;
@@ -103,3 +111,5 @@ li a {
   text-decoration: none;
   margin-right: 13px;
 }
+
+
