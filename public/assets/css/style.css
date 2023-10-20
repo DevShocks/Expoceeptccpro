@@ -137,6 +137,12 @@ h3{
   padding: 0px;
 }
 
+.caixa{
+  margin-left: 100px;
+  width: 300px;
+  height: 400px;
+}
+
 footer{
   background-color: #073e63;
   color: white;

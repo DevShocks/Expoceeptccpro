@@ -1,8 +1,12 @@
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<input type="text" size="40">
-Avisos
-<input type="text" size="40">
-Notas
-<input type="text" size="40">
-Orientações
+<pre>              Notas:                                                    Avisos:                                                     Orientações:</pre>
+
+<input type="text" size="40" class="caixa">
+
+
+
+<input type="text" size="40" class="caixa">
+
+<input type="text" size="40" class="caixa">
+
 
