@@ -100,6 +100,7 @@ ul {
 
 li {
   float: right;
+  
 }
 
 li a {
@@ -109,6 +110,13 @@ li a {
   padding: 5px 38px;
   text-decoration: none;
   margin-right: 14px;
+  
+}
+
+li a:hover{
+  transform: translateY(-7px);
+  filter: drop-shadow(17px 17px 11px rgba(0, 0, 0, 0.7));
+  transition: transform 0.3s ease;
 }
 
 .textolink {
@@ -129,7 +137,17 @@ li a {
 .boneco{
   width: 40%;
   margin-bottom:-120px;
+  filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.7));
 }
+
+.boneco:hover{
+  transform: translateY(-7px);
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
+  transition: transform 0.9s ease;
+}
+
+ 
+
 
 h3{
   font-family: Arial, Helvetica, sans-serif;
@@ -141,7 +159,20 @@ h3{
   margin-left: 100px;
   width: 300px;
   height: 400px;
+  border: 3px solid #073e63;
+  border-radius: 10px;
+  background-color: #d6d6d6;
+  box-shadow: 0px 2px 5px #000000;;
+
 }
+
+.caixa:hover{
+  transform: translateY(-7px);
+  box-shadow: 0px 2px 5px #000000;
+  background-color: #fff;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
 
 footer{
   background-color: #073e63;
@@ -151,4 +182,94 @@ footer{
   padding-right: 100px;
   position: relative;
   bottom: -400px;
+}
+
+/* tela professores*/
+
+.login-card{
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid #073e63;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 20px
+}
+
+.card-header .log {
+  margin: 0;
+  font-size: 24px;
+  color: black;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #073e63;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  width: 100%;
+  background-color: #b80d16;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* botao ciente*/
+
+.login-button2 {
+  width: 20%;
+  padding: 10px;
+  border: none;
+  background: #073e63;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1), inset 0px 1px 3px rgba(255, 255, 255, 0.5);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login-button2:hover{
+  transform: translateY(-3px);
+  
+}
+
+/*titulo do sobre */
+.titulo{
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

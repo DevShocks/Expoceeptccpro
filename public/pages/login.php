@@ -17,5 +17,5 @@
       <a href="?page=professorescadastro">professor</a>
     </p></form>
   </div>
-  <script src="assets/js/logicalogin.js"></script>
+<script src="assets/js/logicalogin.js"></script>
 </center>
