@@ -32,7 +32,7 @@
 
     <div class="form-group">
       <label for="password">Orientações:</label>
-      <input required="" name="password" id="password" type="text password pra txt">
+      <input required="" name="password" id="password" type="text">
     </div>
     <div class="form-group">
       <input value="Mandar" type="submit">
